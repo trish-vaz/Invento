@@ -26,6 +26,10 @@
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>Zeppo uses the camera to scan QR codes for inventory and expiry tracking.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Zeppo uses photos to read product labels and extract expiry details.</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

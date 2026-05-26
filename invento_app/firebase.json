@@ -1,0 +1,34 @@
+{
+  "firestore": {
+    "rules": "firestore.rules"
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "zeppo-app",
+          "appId": "1:1054917317493:android:1482a30a3f901a575ef93c",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "zeppo-app",
+          "appId": "1:1054917317493:ios:9af221d9a2f435305ef93c",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "zeppo-app",
+          "configurations": {
+            "android": "1:1054917317493:android:1482a30a3f901a575ef93c",
+            "ios": "1:1054917317493:ios:9af221d9a2f435305ef93c",
+            "web": "1:1054917317493:web:b57ece8c1f8efd155ef93c"
+          }
+        }
+      }
+    }
+  }
+}

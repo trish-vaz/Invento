@@ -1,13 +1,18 @@
 import '../services/auth_service.dart';
 
 class AuthController {
-  final AuthService _authService = AuthService();
+  AuthController({AuthService? authService})
+    : _authService = authService ?? AuthService();
 
-  Future loginUser(String email, String password) async {
-    return await _authService.login(email, password);
+  final AuthService _authService;
+
+  Future<void> loginUser(String email, String password) async {
+    await _authService.login(email, password);
   }
 
-  Future registerUser(String email, String password) async {
-    return await _authService.register(email, password);
+  Future<void> registerUser(String email, String password) async {
+    await _authService.register(email, password);
   }
+
+  Future<void> logout() => _authService.logout();
 }

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1054917317493",
+    "project_id": "zeppo-app",
+    "storage_bucket": "zeppo-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054917317493:android:1482a30a3f901a575ef93c",
+        "android_client_info": {
+          "package_name": "com.invento.zeppo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAui2AXoU_lS_kI8owsJtzOCGe43yQmjvg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
